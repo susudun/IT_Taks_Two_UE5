@@ -9,9 +9,9 @@
 싱글환경에서 ClientTravel 이 진행 된다면 게임이 오픈되면서 가지고있던 GameInstances 를 제외하고는 접속 서버에 GameMode 및 모든 프레임워크들을 서버에서 발급받아 사용
 서버에서 ServerTravel 진행시 기존 레벨에 모든 프레임워크를 두고 새로운 레벨에 프레임워크를 사용하기에 필요한 프레임워크 정보는 저장 후 다시 전달해야 함
 -GameMode
-...cpp
+```cpp
 ABaseGameMode::ABaseGameMode()
 {
 	bUseSeamlessTravel = true;
 }
-...
+```
