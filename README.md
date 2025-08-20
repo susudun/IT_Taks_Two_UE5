@@ -12,4 +12,10 @@
 - GameMode
   - Server에서 모든 동작이 발생
   - PostLogin에서 Player 접속시 모든것을 처리 
-  - Widget->PlayerController->Gamemode.HandleTravel(); 이런식으로
+  - Widget->PlayerController->Gamemode.HandleTravel(); Widget 이벤트 종료후 ServerTravel 진행하면 GameMode 기능 완료
+
+- GameInstances
+  - CachedUserName으로 플레이어 이름저장
+ 
+- PlayerController
+  = test
