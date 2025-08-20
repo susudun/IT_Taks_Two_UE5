@@ -1,5 +1,5 @@
 # IT_Taks_Two_UE5
--IT_TAKS_Two 언리얼 모작
+- IT_TAKS_Two 언리얼 모작
 구현 기능 코드 및 코드 내용 정리
 1. 싱글플레이로 진행 하여 Player Name 과 서버 IP 를 수동으로 입력 받은 이후 ClientTravel 을 통하여 서버에 접속
 2. dedicated server 는 사전에 캐릭터 선택 레벨을 오픈하고 플레이어 접속을 대기 2명이 접속시 Gamemode PostLogin 에서 PlayerController에 Widget 생성 함수 호출
