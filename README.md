@@ -30,4 +30,6 @@
  
 - Widget
   - PlayerCharaterChoice 멀티 시작시 캐릭터 선택 관련 위젯
-  - 
+  - PlayerSelect: 상대 캐릭터 머리 위에 Character Tick 표시
+      - Location: 레벨에 배치된 상대 캐릭터 머리 위
+      - -Rotation: 자기 기준 ForwardVector - 180° (플레이어 시야 기준 정렬)  
